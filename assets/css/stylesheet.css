@@ -12,6 +12,15 @@ body {
     color: black;
 }
 
+footer {
+    color: var(--custBlue);
+}
+
+i {
+    size: 20px;
+    color: var(--custBlue)
+}
+
 #big-headline {
     background-color: var(--custGrey);
     color: var(--custBlue);
@@ -53,4 +62,18 @@ a:hover {
 
 .btn {
     border: none;
+}
+
+#shortLink {
+    color: var(--custDark);
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+#shortLink:hover {
+    font-size: larger;
+}
+
+#interesting {
+    height: 66px
 }
