@@ -12,6 +12,16 @@ body {
     color: black;
 }
 
+#big-headline {
+    background-color: var(--custGrey);
+    color: var(--custBlue);
+}
+
+#big-card {
+    background-color: black;
+    color: var(--custBlue);
+}
+
 #content-card {
     margin-top: 25px;
     background-color: var(--custGrey);
@@ -39,4 +49,8 @@ a {
 
 a:hover {
     color: var(--custPink);
+}
+
+.btn {
+    border: none;
 }
