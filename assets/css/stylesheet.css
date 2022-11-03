@@ -1,0 +1,42 @@
+:root {
+    --custPink: #FF579F;
+    --custDark: #38040E;
+    --custGreen: #C5D86D;
+    --custBlue: #C6D4FF;
+    --custGrey: #646165;
+}
+
+
+body {
+    background: black;
+    color: black;
+}
+
+#content-card {
+    margin-top: 25px;
+    background-color: var(--custGrey);
+    color: var(--custBlue);
+}
+
+#content-card img {
+    width: 285px; 
+    height: 300px; 
+    object-fit: cover;
+}
+
+.btn {
+    background-color: var(--custGreen);
+    color: var(--custDark);
+}
+
+.btn:hover {
+    background-color: var(--custPink);
+}
+
+a {
+    color: var(--custGreen);
+}
+
+a:hover {
+    color: var(--custPink);
+}
